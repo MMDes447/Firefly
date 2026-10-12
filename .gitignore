@@ -1,0 +1,49 @@
+# Third-party reference downloads and local reading material
+/Implementation_Radiance/
+/Claude outputs/
+*.pdf
+*.zip
+*.epw
+
+# Simulation inputs/results, generated matrices and BSDFs
+*.npz
+*.npy
+*.mtx
+*.vec
+*.hsr
+*.hdr
+*.exr
+*.oct
+*.xml
+/firefly_gym/env_v2_data/
+/firefly_gym/radiance_strips/mtx/
+/firefly_gym/radiance_strips/bsdf/
+
+# Training checkpoints and machine-specific run metadata; summaries may be tracked
+*.pt
+*.pth
+*.ckpt
+/firefly_gym/results/**/metrics.json
+/firefly_gym/results/firefly_blind_study.html
+
+# Local agent settings, credentials and environment files
+/.agents/
+/.aws/
+/.codex/
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.venv/
+venv/
+
+# Python and editor caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.DS_Store
+.idea/
+.vscode/
